@@ -40,6 +40,7 @@ function setup() {
 function draw() {
 
   background(230);
+  Engine.update(engine)
   //Add code for displaying text here!
   image(boy ,200,340,200,300);
   
